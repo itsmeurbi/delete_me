@@ -16,4 +16,12 @@ RSpec.describe 'basic math opts' do
       expect(response).to be(-3)
     end
   end
+
+  describe '*' do
+    it 'success' do
+      response = basic_op('*', 5, 5)
+
+      expect(response).to be(25)
+    end
+  end
 end
