@@ -3,7 +3,9 @@ def basic_op(operator, number1, number2)
     return number1 + number2
   elsif operator == '-'
     return number1 - number2
-  else
+  elsif operator == '*'
     return number1 * number2
+  else
+    return number1 / number2
   end
 end
