@@ -1,5 +1,4 @@
-## TODO:
+## TODO: somethign else
 - Item one
-- Item two
 
 There's one **important** thing here
